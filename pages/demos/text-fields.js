@@ -45,6 +45,13 @@ module.exports = require('fs')
   .readFileSync(require.resolve('docs/src/pages/demos/text-fields/FormattedInputs'), 'utf8')
 `,
         },
+        'pages/demos/text-fields/TextArea.js': {
+          js: require('docs/src/pages/demos/text-fields/TextArea').default,
+          raw: preval`
+module.exports = require('fs')
+  .readFileSync(require.resolve('docs/src/pages/demos/text-fields/TextArea'), 'utf8')
+`,
+        },
       }}
     />
   );

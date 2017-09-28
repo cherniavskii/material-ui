@@ -41,3 +41,8 @@ We demonstrate how you could be using third-party libraries to [format your inpu
 Here, we are using [react-text-mask](https://github.com/text-mask/text-mask) and [react-number-format](https://github.com/s-yadav/react-number-format).
 
 {{demo='pages/demos/text-fields/FormattedInputs.js'}}
+
+## TextArea
+
+
+{{demo='pages/demos/text-fields/TextArea.js'}}
